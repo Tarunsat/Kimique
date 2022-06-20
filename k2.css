@@ -2,12 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
 
- .scroller
-  {
-    overflow: auto;
-    
-max-height: 100vh;
-  }
+
 *{
   box-sizing: border-box;
 }
@@ -26,7 +21,7 @@ body{
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
   margin: 0;
 }
 .quiz-container{
